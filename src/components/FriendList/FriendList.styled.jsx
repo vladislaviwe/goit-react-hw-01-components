@@ -31,14 +31,7 @@ export const FriendAvatar = styled.img`
 
 export const Indicator = styled.circle`
     stroke-width: 10px;
-
-    &.green {
-        fill: green;
-    }
-
-    &.red {
-        fill: red;
-    }
+    fill: ${props => props.isOnline ? "green" : "red"};
 `
 
 // export const FriendIndicatorGreen = styled.circle`
