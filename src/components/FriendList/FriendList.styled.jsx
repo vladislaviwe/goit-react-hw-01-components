@@ -29,15 +29,27 @@ export const FriendAvatar = styled.img`
     margin-left: 20px;
 `
 
-export const FriendIndicatorGreen = styled.circle`
-    fill: green;
+export const Indicator = styled.circle`
     stroke-width: 10px;
+
+    &.green {
+        fill: green;
+    }
+
+    &.red {
+        fill: red;
+    }
 `
 
-export const FriendIndicatorRed = styled.circle`
-    fill: red;
-    stroke-width: 10px;
-`
+// export const FriendIndicatorGreen = styled.circle`
+//     fill: green;
+//     stroke-width: 10px;
+// `
+
+// export const FriendIndicatorRed = styled.circle`
+//     fill: red;
+//     stroke-width: 10px;
+// `
 
 export const FriendName = styled.p`
     margin-left: 20px;

@@ -5,7 +5,7 @@ import { Title, StatsSection, StatsList } from './Statistics.styled';
 export const StatisticsCard = ({ stats, title }) => {
     return (
         <StatsSection>
-            {title !== "" && (
+            {title && (
                 <Title>{title}</Title>
             )}
             <StatsList>
